@@ -1,0 +1,33 @@
+.about {
+    padding-top: 94px;
+}
+.about-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.about-list {
+    display: flex;
+    gap: 30px;
+}
+.about-item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+.about-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    background: var(--second-background);
+    border-radius: 4px;
+}

@@ -1,0 +1,26 @@
+@import 'utils/variables';
+@import 'utils/visually-hidden';
+
+@import 'base/common';
+@import 'base/container';
+
+@import 'placeholder/modal-btn';
+
+@import 'components/backdrop';
+@import 'components/modal-window';
+@import 'components/modal-form';
+@import 'components/modal-close-btn';
+@import 'components/social-list';
+@import 'components/address';
+@import 'components/portfolio-overlay';
+
+@import 'layout/logo';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/hero';
+@import 'layout/prof';
+@import 'layout/about';
+@import 'layout/employee';
+@import 'layout/client';
+@import 'layout/footer';
+@import 'layout/page-portfolio';
