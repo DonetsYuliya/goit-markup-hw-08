@@ -71,15 +71,15 @@
 }
 
 // SOCIAL
-.social-list {
+.mobile-menu-social-list {
     display: flex;
 }
-.social-list__link {
+.mobile-menu-social-list__link {
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
-.social-list__item:not(:last-child) {
+.mobile-menu-social-list__item:not(:last-child) {
     margin-right: 20px;
 }
