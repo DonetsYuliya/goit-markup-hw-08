@@ -1,40 +1,43 @@
-.header {
-    border-bottom: 1px solid #ececec;
-}
 .header-container {
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.header {
+    border-bottom: 1px solid #ececec;
+}
+@media screen and (min-width: 768px) {
+    .header-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mobile-menu-open {
+        display: none;
+    }
+}
+.mobile-menu-open {
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
 }
 
-.header-contact-list {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-// @media screen and (max-width: 1199px) {
-//     .header-contact-list {
-//         display: block;
-//     }
-// }
-
-.header-contact-list__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:not(:first-child) {
-        margin-left: 30px;
+@media screen and (max-width: 767px) {
+    .header-contact-list {
+        display: none;
     }
 }
 
 .header-contact-list__link {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    padding: 32px 0;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -56,5 +59,27 @@
     .header-contact-list__link:hover &,
     .header-contact-list__link:focus & {
         fill: var(--brand-color);
+    }
+}
+@media screen and (max-width: 1199px) {
+    .header-contact-list__item:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-contact-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .header-contact-list__item {
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+    }
+    .header-contact-list__link {
+        padding: 32px 0;
     }
 }
