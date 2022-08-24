@@ -650,9 +650,13 @@ body {
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .prof {
+    display: none;
+  }
+}
 .prof {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .caption {
@@ -742,6 +746,10 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .about {
+    padding-top: 94px;
+    padding-bottom: 0;
+  }
   .about-list {
     flex-wrap: nowrap;
     gap: 30px;
