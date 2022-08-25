@@ -1,13 +1,11 @@
 .section {
-    padding: 94px 0;
+    padding: 40px 0;
 }
 .filter-list {
     display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-}
-.filter-list__item:not(:last-child) {
-    margin-right: 8px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .filter-list__btn {
     font-family: inherit;
@@ -42,7 +40,7 @@
 }
 .project-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
 }
 .project-list__subtitle {
@@ -60,10 +58,7 @@
     margin-top: 4px;
 }
 .project-list__card {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 20px 24px;
     border: 1px solid #eeeeee;
 }
 .project-list__item {
@@ -76,3 +71,21 @@
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
+@media screen and (min-width: 768px) {
+.section {
+        padding: 60px 0;
+    }
+.filter-list {justify-content: center;}
+.project-list {flex-direction: row;
+flex-wrap: wrap;}
+.project-list__item {width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
+}}
+
+@media screen and (min-width:1200px) {
+    .section {padding: 94px 0;}
+    .filter-list {margin-bottom: 32px;}
+    .project-list__item {
+        width: 370px;
+        flex-basis: calc((100% - 60px) / 3);
+    }}

@@ -74,9 +74,8 @@
     margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 12px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--text-color);
     cursor: pointer;
@@ -109,3 +108,9 @@
     @extend .modal-btn;
     padding: 10px 55px;
 }
+
+@media screen and (min-width:1200px) {
+.modal-form-check-desc {
+        font-size: 14px;
+        line-height: 1.71; 
+}}
