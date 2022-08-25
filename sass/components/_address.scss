@@ -3,8 +3,14 @@
     margin-top: 20px;
 }
 .address__item:not(:first-child) {
-    margin-top: 9px;
+    margin-top: 8px;
 }
+@media screen and (min-width:1200px) {
+    .address__item:not(:first-child) {
+            margin-top: 9px;
+        }   
+}
+
 .address__link {
     line-height: 1.71;
     letter-spacing: 0.03em;
