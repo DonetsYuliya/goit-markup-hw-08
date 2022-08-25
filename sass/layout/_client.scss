@@ -1,17 +1,12 @@
 .client {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.client-list {
-    display: flex;
-    padding-top: 50px;
-    gap: 30px;
+    padding: 60px 0;
 }
 .client-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 100%;
+    min-width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -35,3 +30,27 @@
         fill: var(--brand-color);
     }
 }
+.client-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        gap: 30px;
+        padding-top: 30px;
+
+}
+.client-item {
+flex-basis: calc((100% - 30px) / 2);}
+
+
+@media screen and (min-width: 1200px) {
+    .client {
+        padding: 94px 0;
+    }
+    .client-list {
+            padding-top: 50px;
+            flex-wrap:nowrap;
+    
+        }
+
+}
+
