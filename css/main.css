@@ -690,6 +690,8 @@ body {
   .hero {
     background-image: url(../images/bg-hero/tablet-bg-img@2x.jpg);
   }
+}
+@media screen and (min-width: 768px) {
   .hero__container {
     width: 390px;
   }
