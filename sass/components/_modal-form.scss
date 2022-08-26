@@ -106,11 +106,14 @@
 
 .modal-form-button {
     @extend .modal-btn;
-    padding: 10px 55px;
+    padding: 10px 52px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-@media screen and (min-width:1200px) {
-.modal-form-check-desc {
+@media screen and (min-width: 1200px) {
+    .modal-form-check-desc {
         font-size: 14px;
-        line-height: 1.71; 
-}}
+        line-height: 1.71;
+    }
+}
