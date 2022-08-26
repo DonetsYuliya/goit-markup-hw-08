@@ -10,17 +10,16 @@
     .footer-social-list,
     .footer-form-list,
     .address__list,
-    .footer-form {
-        display: flex;
+    .footer-form {display: flex;
         flex-direction: column;
         align-items: center;}
     .footer-form-list {
-                margin-top: 60px;
-    }}
+    margin-top: 60px;
+    }
+}
 @media screen and (max-width:767px) {
     .footer-container {
         flex-direction: column;
-        align-items: center;
     }
 
     .footer-social-list {
@@ -47,7 +46,7 @@
 }
 
 .footer-form__input {
-    width: 100%;
+    min-width: 320px;
     height: 50px;
     padding-left: 16px;
     margin-bottom: 20px;
@@ -97,5 +96,3 @@
     padding: 0;
     line-height: 0;
 }
-
-

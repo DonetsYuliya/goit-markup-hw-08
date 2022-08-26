@@ -971,7 +971,6 @@ body {
 @media screen and (max-width: 767px) {
   .footer-container {
     flex-direction: column;
-    align-items: center;
   }
   .footer-social-list {
     margin-top: 60px;
@@ -994,7 +993,7 @@ body {
 }
 
 .footer-form__input {
-  width: 100%;
+  min-width: 320px;
   height: 50px;
   padding-left: 16px;
   margin-bottom: 20px;
