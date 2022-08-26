@@ -23,9 +23,9 @@
                 <a class="logo link" href="" lang="en"
                     >Web<span class="logo__accent logo__accent_header">Studio</span></a
                 >
-                <button class="mobile-menu-open" type="button" js-open-menu>
+                <button class="mobile-menu-open" type="button" data-open-menu>
                     <svg class="mobile-menu-open__icon" width="40" height="40">
-                        <use href="/images/icons.svg#icon-burger"></use>
+                        <use href="./images/icons.svg#icon-burger"></use>
                     </svg>
                 </button>
                 <nav class="navigation">
@@ -62,9 +62,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="mobile-menu" js-menu-container>
+            <div class="mobile-menu" data-menu-container>
                 <div class="container mobile-menu__container">
-                    <button class="mobile-menu__close-btn" type="button" js-close-menu>
+                    <button class="mobile-menu__close-btn" type="button" data-close-menu>
                         <svg class="mobile-menu__close-icon" width="40" height="40">
                             <use href="./images/icons.svg#close-modal"></use>
                         </svg>
@@ -142,25 +142,31 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                        ./images/portfolio-desktop/tehno-des.jpg    1x,
-                                        ./images/portfolio-desktop/tehno-des@2x.jpg 2x
-                                    " />
-                                    <source media="(min-width:768px )" srcset="
-                                        ./images/portfolio-tablet/tehno-tab.jpg    1x,
-                                        ./images/portfolio-tablet/tehno-tab@2x.jpg 2x
-                                    " />
-                                    <source media="(max-width:767px )" srcset="
-                                        ./images/portfolio-mobile/tehno-mob.jpg    1x,
-                                        ./images/portfolio-mobile/tehno-mob@2x.jpg 2x
-                                    " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/tehno-mob.jpg"
-                                    alt="Монітор з
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/tehno-des.jpg    1x,
+                                            ./images/portfolio-desktop/tehno-des@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/tehno-tab.jpg    1x,
+                                            ./images/portfolio-tablet/tehno-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/tehno-mob.jpg    1x,
+                                            ./images/portfolio-mobile/tehno-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/tehno-mob.jpg"
+                                        alt="Монітор з
                             фото колективу"
-                                    width="450"
-                                    height="294"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -176,25 +182,31 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                        ./images/portfolio-desktop/poster-des.jpg    1x,
-                                        ./images/portfolio-desktop/poster-des@2x.jpg 2x
-                                    " />
-                                    <source media="(min-width:768px )" srcset="
-                                        ./images/portfolio-tablet/poster-tab.jpg    1x,
-                                        ./images/portfolio-tablet/poster-tab@2x.jpg 2x
-                                    " />
-                                    <source media="(max-width:767px )" srcset="
-                                        ./images/portfolio-mobile/poster-mob.jpg    1x,
-                                        ./images/portfolio-mobile/poster-mob@2x.jpg 2x
-                                    " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/poster-mob.jpg"
-                                    alt="Постер з
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/poster-des.jpg    1x,
+                                            ./images/portfolio-desktop/poster-des@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/poster-tab.jpg    1x,
+                                            ./images/portfolio-tablet/poster-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/poster-mob.jpg    1x,
+                                            ./images/portfolio-mobile/poster-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/poster-mob.jpg"
+                                        alt="Постер з
                             баскетболістами"
-                                    width="450"
-                                    height="294"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -209,24 +221,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/restaurant-des.jpg    1x,
-                                    ./images/portfolio-desktop/restaurant-des@2x.jpg 2x
-                                     " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/restaurant-tab.jpg    1x,
-                                    ./images/portfolio-tablet/restaurant-tab@2x.jpg 2x
-                                                                    " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/restaurant-mob.jpg    1x,
-                                    ./images/portfolio-mobile/restaurant-mob@2x.jpg 2x
-                                                                    " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/restaurant-mob.jpg"
-                                    alt="Реклама рибного ресторану"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/restaurant-des.jpg    1x,
+                                            ./images/portfolio-desktop/restaurant-des@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/restaurant-tab.jpg    1x,
+                                            ./images/portfolio-tablet/restaurant-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/restaurant-mob.jpg    1x,
+                                            ./images/portfolio-mobile/restaurant-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/restaurant-mob.jpg"
+                                        alt="Реклама рибного ресторану"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -240,24 +258,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/headphone-des.jpg    1x,
-                                    ./images/portfolio-desktop/headphone-des@2x.jpg 2x
-                                                                        " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/headphone-tab.jpg    1x,
-                                    ./images/portfolio-tablet/headphone-tab@2x.jpg 2x
-                                                                        " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/headphone-mob.jpg    1x,
-                                    ./images/portfolio-mobile/headphone-mob@2x.jpg 2x
-                                                                            " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/headphone-mob.jpg"
-                                    alt="Навушники"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/headphone-des.jpg    1x,
+                                            ./images/portfolio-desktop/headphone-des@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/headphone-tab.jpg    1x,
+                                            ./images/portfolio-tablet/headphone-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/headphone-mob.jpg    1x,
+                                            ./images/portfolio-mobile/headphone-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/headphone-mob.jpg"
+                                        alt="Навушники"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -271,24 +295,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/boxes-des.jpg    1x,
-                                    ./images/portfolio-desktop/boxes-des@2x.jpg 2x
-                                         " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/boxes-tab.jpg    1x,
-                                    ./images/portfolio-tablet/boxes-tab@2x.jpg 2x 
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/boxes-des.jpg    1x,
+                                            ./images/portfolio-desktop/boxes-des@2x.jpg 2x
                                         " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/boxes-mob.jpg    1x,
-                                    ./images/portfolio-mobile/boxes-mob@2x.jpg 2x
-                                       " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/boxes-mob.jpg"
-                                    alt="Дві коробки"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/boxes-tab.jpg    1x,
+                                            ./images/portfolio-tablet/boxes-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/boxes-mob.jpg    1x,
+                                            ./images/portfolio-mobile/boxes-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/boxes-mob.jpg"
+                                        alt="Дві коробки"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -302,24 +332,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/monitor-des.jpg    1x,
-                                    ./images/portfolio-desktop/monitor-des@2x.jpg 2x
-                                     " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/monitor-tab.jpg    1x,
-                                    ./images/portfolio-tablet/monitor-tab@2x.jpg 2x 
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/monitor-des.jpg    1x,
+                                            ./images/portfolio-desktop/monitor-des@2x.jpg 2x
                                         " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/monitor-mob.jpg    1x,
-                                    ./images/portfolio-mobile/monitor-mob@2x.jpg 2x
-                                       " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/monitor-mob.jpg"
-                                    alt="Монітор"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/monitor-tab.jpg    1x,
+                                            ./images/portfolio-tablet/monitor-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/monitor-mob.jpg    1x,
+                                            ./images/portfolio-mobile/monitor-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/monitor-mob.jpg"
+                                        alt="Монітор"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -333,24 +369,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/book-des.jpg    1x,
-                                    ./images/portfolio-desktop/book-des@2x.jpg 2x
-                                     " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/book-tab.jpg    1x,
-                                    ./images/portfolio-tablet/book-tab@2x.jpg 2x 
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/book-des.jpg    1x,
+                                            ./images/portfolio-desktop/book-des@2x.jpg 2x
                                         " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/book-mob.jpg    1x,
-                                    ./images/portfolio-mobile/book-mob@2x.jpg 2x
-                                       " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/book-mob.jpg"
-                                    alt="Відкрита книга"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/book-tab.jpg    1x,
+                                            ./images/portfolio-tablet/book-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/book-mob.jpg    1x,
+                                            ./images/portfolio-mobile/book-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/book-mob.jpg"
+                                        alt="Відкрита книга"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -365,24 +407,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/lab-des.jpg    1x,
-                                    ./images/portfolio-desktop/lab-des@2x.jpg 2x
-                                     " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/lab-tab.jpg    1x,
-                                    ./images/portfolio-tablet/lab-tab@2x.jpg 2x 
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/lab-des.jpg    1x,
+                                            ./images/portfolio-desktop/lab-des@2x.jpg 2x
                                         " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/lab-mob.jpg    1x,
-                                    ./images/portfolio-mobile/lab-mob@2x.jpg 2x
-                                       " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/lab-mob.jpg"
-                                    alt="Лейба з логотипом"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/lab-tab.jpg    1x,
+                                            ./images/portfolio-tablet/lab-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/lab-mob.jpg    1x,
+                                            ./images/portfolio-mobile/lab-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/lab-mob.jpg"
+                                        alt="Лейба з логотипом"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -396,24 +444,30 @@
                         <li class="project-list__item">
                             <div class="project-list__overlay-wrapper">
                                 <picture>
-                                    <source media="(min-width:1200px )" srcset="
-                                    ./images/portfolio-desktop/comp-des.jpg    1x,
-                                    ./images/portfolio-desktop/comp-des@2x.jpg 2x
-                                     " />
-                                    <source media="(min-width:768px )" srcset="
-                                    ./images/portfolio-tablet/comp-tab.jpg    1x,
-                                    ./images/portfolio-tablet/comp-tab@2x.jpg 2x 
+                                    <source
+                                        media="(min-width:1200px )"
+                                        srcset="
+                                            ./images/portfolio-desktop/comp-des.jpg    1x,
+                                            ./images/portfolio-desktop/comp-des@2x.jpg 2x
                                         " />
-                                    <source media="(max-width:767px )" srcset="
-                                    ./images/portfolio-mobile/comp-mob.jpg    1x,
-                                    ./images/portfolio-mobile/comp-mob@2x.jpg 2x
-                                       " />
-                                <img
-                                    class="project-list__img"
-                                    src="./images/portfolio-mobile/comp-mob.jpg"
-                                    alt="Робота за ноутбуком"
-                                    width="450"
-                                    height="294"
+                                    <source
+                                        media="(min-width:768px )"
+                                        srcset="
+                                            ./images/portfolio-tablet/comp-tab.jpg    1x,
+                                            ./images/portfolio-tablet/comp-tab@2x.jpg 2x
+                                        " />
+                                    <source
+                                        media="(max-width:767px )"
+                                        srcset="
+                                            ./images/portfolio-mobile/comp-mob.jpg    1x,
+                                            ./images/portfolio-mobile/comp-mob@2x.jpg 2x
+                                        " />
+                                    <img
+                                        class="project-list__img"
+                                        src="./images/portfolio-mobile/comp-mob.jpg"
+                                        alt="Робота за ноутбуком"
+                                        width="450"
+                                        height="294"
                                 /></picture>
                                 <p class="project-list__overlay"></p>
                             </div>
@@ -430,24 +484,35 @@
             <div class="container footer-container">
                 <ul class="footer-contact-list list">
                     <li class="footer-contact-list__item">
-                        <a class="logo footer-logo link" href="" lang="en">Web<span
-                                class="logo__accent logo__accent_footer">Studio</span></a>
+                        <a class="logo footer-logo link" href="" lang="en"
+                            >Web<span class="logo__accent logo__accent_footer">Studio</span></a
+                        >
                     </li>
                     <li class="footer-contact-list__item">
                         <address class="address">
                             <ul class="address__list list">
                                 <li class="address__item">
-                                    <a class="address__link address__link_address link"
-                                        href="https://goo.gl/maps/qgco4k4MFh5VarPj7" target="_blank"
-                                        rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+                                    <a
+                                        class="address__link address__link_address link"
+                                        href="https://goo.gl/maps/qgco4k4MFh5VarPj7"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >м. Київ, пр-т Лесі Українки, 26</a
+                                    >
                                 </li>
                                 <li class="address__item">
-                                    <a class="address__link address__link_tel_mail link"
-                                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                    <a
+                                        class="address__link address__link_tel_mail link"
+                                        href="mailto:info@devstudio.com"
+                                        >info@devstudio.com</a
+                                    >
                                 </li>
                                 <li class="address__item">
-                                    <a class="address__link address__link_tel_mail link" href="tel:+380961111111">+38 096 111 11
-                                        11</a>
+                                    <a
+                                        class="address__link address__link_tel_mail link"
+                                        href="tel:+380961111111"
+                                        >+38 096 111 11 11</a
+                                    >
                                 </li>
                             </ul>
                         </address>
@@ -461,28 +526,44 @@
                         <ul class="social-list list">
                             <li class="social-list__item">
                                 <a href="" class="social-list__link social-list__link_footer">
-                                    <svg class="social-list__icon social-list__icon_footer" width="20" height="20">
+                                    <svg
+                                        class="social-list__icon social-list__icon_footer"
+                                        width="20"
+                                        height="20"
+                                    >
                                         <use href="./images/icons.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-list__item">
                                 <a href="" class="social-list__link social-list__link_footer">
-                                    <svg class="social-list__icon social-list__icon_footer" width="20" height="20">
+                                    <svg
+                                        class="social-list__icon social-list__icon_footer"
+                                        width="20"
+                                        height="20"
+                                    >
                                         <use href="./images/icons.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-list__item">
                                 <a href="" class="social-list__link social-list__link_footer">
-                                    <svg class="social-list__icon social-list__icon_footer" width="20" height="20">
+                                    <svg
+                                        class="social-list__icon social-list__icon_footer"
+                                        width="20"
+                                        height="20"
+                                    >
                                         <use href="./images/icons.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-list__item">
                                 <a href="" class="social-list__link social-list__link_footer">
-                                    <svg class="social-list__icon social-list__icon_footer" width="20" height="20">
+                                    <svg
+                                        class="social-list__icon social-list__icon_footer"
+                                        width="20"
+                                        height="20"
+                                    >
                                         <use href="./images/icons.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -496,9 +577,16 @@
                     </li>
                     <li class="footer-form-list__item">
                         <form class="footer-form">
-                            <label class="footer-form__label"><input type="email" name="user_email" class="footer-form__input"
-                                    placeholder="E-mail" required /></label>
-                            <button type="submit" class="footer-form-btn">Підписатися&nbsp;
+                            <label class="footer-form__label"
+                                ><input
+                                    type="email"
+                                    name="user_email"
+                                    class="footer-form__input"
+                                    placeholder="E-mail"
+                                    required
+                            /></label>
+                            <button type="submit" class="footer-form-btn">
+                                Підписатися&nbsp;
                                 <svg class="footer-form-btn__icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-icon-send"></use>
                                 </svg>
