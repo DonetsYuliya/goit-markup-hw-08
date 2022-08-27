@@ -1104,18 +1104,21 @@ body {
   margin-top: 4px;
 }
 
-.project-list__card {
-  padding: 20px 24px;
-  border: 1px solid #eeeeee;
-}
-
 .project-list__item {
+  display: flex;
+  flex-direction: column;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-list__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project-list__card {
+  flex-grow: 2;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 @media screen and (min-width: 768px) {
