@@ -131,6 +131,9 @@ body {
 }
 
 .mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: relative;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -144,6 +147,10 @@ body {
   background-color: transparent;
   padding: 0;
   line-height: 0;
+}
+
+.mobile-menu-nav-list {
+  flex-grow: 2;
 }
 
 .mobile-menu__link {
@@ -162,7 +169,6 @@ body {
 }
 
 .mobile-menu-contact-list {
-  margin-top: 300px;
   margin-bottom: 64px;
 }
 
@@ -195,8 +201,10 @@ body {
   color: var(--brand-color);
 }
 
-.mobile-menu-social-list__item:not(:last-child) {
-  margin-right: 20px;
+.mobile-menu-social-list {
+  display: flex;
+  gap: 20px;
+  width: auto;
 }
 
 .backdrop {

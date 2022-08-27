@@ -21,6 +21,9 @@
     pointer-events: auto;
 }
 .mobile-menu__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     position: relative;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -35,6 +38,10 @@
     line-height: 0;
 }
 // NAVIGATION MOBILE MENU
+.mobile-menu-nav-list {
+    flex-grow: 2;
+}
+
 .mobile-menu__link {
     font-size: 40px;
     line-height: 1.18;
@@ -50,7 +57,6 @@
 
 // CONTACTS
 .mobile-menu-contact-list {
-    margin-top: 300px;
     margin-bottom: 64px;
 }
 
@@ -80,6 +86,8 @@
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
-.mobile-menu-social-list__item:not(:last-child) {
-    margin-right: 20px;
+.mobile-menu-social-list {
+    display: flex;
+    gap: 20px;
+    width: auto;
 }
